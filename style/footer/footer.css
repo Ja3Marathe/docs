@@ -1,0 +1,61 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.footer .socialInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: -5px;
+}
+
+.footer .socialInfo .linkedin,
+.footer .socialInfo .gitHub,
+.footer .socialInfo .twitter {
+    height: 25px;
+    width: 25px;
+}
+
+.footer .socialText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .socialText p {
+    font-size: 16px;
+    font-weight: 100;
+    font-family: "Noto Sans Khojki", sans-serif;
+
+}
+
+.socialText font {
+    cursor: pointer;
+}
+
+.fstroke-1 {
+    color: #22d3ee;
+    cursor: pointer;
+    transition: tansform .6s;
+}
+
+.fstroke-1:hover {
+    transform: scale(1.2);
+}
+
+/* audio,
+canvas,
+embed,
+iframe,
+img,
+object,
+svg,
+video {
+    display: block;
+    vertical-align: middle;
+} */

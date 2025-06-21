@@ -1,0 +1,175 @@
+.midSection {
+    padding: 50px 40px;
+}
+
+.midSection .midHeading h1 {
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 33px;
+    font-weight: 790;
+    letter-spacing: 0.40px;
+}
+
+.midSection .tecnologiesInfo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 27px;
+    margin-bottom: 20px;
+}
+
+.midSection .tecnologiesInfo .language {
+    width: 315px;
+    height: 270px;
+    background: linear-gradient(120deg, #d8b4fe, #818cf8);
+}
+
+.midSection .tecnologiesInfo .language .innerService {
+    width: 305px;
+    align-items: center;
+    height: 260px;
+}
+
+.midSection .tecnologiesInfo .userInterface {
+    width: 245px;
+    height: 270px;
+    background: linear-gradient(90deg, #6ee7b7, #3b82f6, #9333ea);
+}
+
+.midSection .tecnologiesInfo .userInterface .innerService {
+    width: 235px;
+    height: 260px;
+}
+
+.midSection .tecnologiesInfo .tools {
+    width: 230px;
+    height: 200px;
+    background: linear-gradient(120deg, #ff709f, #fca5a5, #fecaca);
+}
+
+.midSection .tecnologiesInfo .tools .innerService {
+    width: 220px;
+    height: 190px;
+}
+
+.midSection .tecnologiesInfo .others {
+    width: 330px;
+    height: 200px;
+    background: linear-gradient(120deg, #fde68a, #fca5a5, #fecaca);
+}
+
+.midSection .tecnologiesInfo .others .innerService {
+    width: 320px;
+    height: 190px;
+}
+
+.midSection .tecnologiesInfo .language,
+.midSection .tecnologiesInfo .userInterface,
+.midSection .tecnologiesInfo .tools,
+.midSection .tecnologiesInfo .others {
+    border-radius: 8px;
+    transition: transform .2s;
+}
+
+.midSection .tecnologiesInfo .language .innerService,
+.midSection .tecnologiesInfo .userInterface .innerService,
+.midSection .tecnologiesInfo .tools .innerService,
+.midSection .tecnologiesInfo .others .innerService {
+    border-radius: 7px;
+    background-color: #fff;
+    margin: 5px;
+}
+
+.midSection .tecnologiesInfo .language .innerService .innerServiceInfo,
+.midSection .tecnologiesInfo .userInterface .innerService .innerServiceInfo,
+.midSection .tecnologiesInfo .tools .innerService .innerServiceInfo,
+.midSection .tecnologiesInfo .others .innerService .innerServiceInfo {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px 5px 15px;
+}
+
+.midSection .tecnologiesInfo .language .innerService .innerServiceInfo .learned .bunch,
+.midSection .tecnologiesInfo .userInterface .innerService .innerServiceInfo .learned .bunch,
+.midSection .tecnologiesInfo .tools .innerService .innerServiceInfo .learned .bunch,
+.midSection .tecnologiesInfo .others .innerService .innerServiceInfo .learned .bunch {
+    display: flex;
+    align-items: center;
+    padding: 3px 0 2px 0;
+    gap: 10px;
+}
+
+.midSection .tecnologiesInfo .language .innerService .innerServiceInfo .learned .bunch .material-symbols-outlined,
+.midSection .tecnologiesInfo .userInterface .innerService .innerServiceInfo .learned .bunch .material-symbols-outlined,
+.midSection .tecnologiesInfo .tools .innerService .innerServiceInfo .learned .bunch .material-symbols-outlined,
+.midSection .tecnologiesInfo .others .innerService .innerServiceInfo .learned .bunch .material-symbols-outlined {
+
+    border-radius: 50%;
+    width: 16px;
+    height: 15px;
+    background-color: black;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 800;
+    padding: 2px 0 0 2px;
+    margin-top: 2px;
+    align-items: center;
+}
+
+.midSection .tecnologiesInfo .language .innerService .innerServiceInfo .tecnologiesHeading {
+    padding-bottom: 10px;
+}
+
+.midSection .tecnologiesInfo .userInterface .innerService .innerServiceInfo .tecnologiesHeading {
+    padding-bottom: 61px;
+}
+
+.midSection .tecnologiesInfo .tools .innerService .innerServiceInfo .tecnologiesHeading {
+    padding-bottom: 35px;
+}
+
+.midSection .tecnologiesInfo .others .innerService .innerServiceInfo .tecnologiesHeading {
+    padding-bottom: 15px;
+}
+
+.midSection .tecnologiesInfo .language:hover {
+    transform: scale(1.02);
+}
+
+.midSection .tecnologiesInfo .userInterface:hover {
+    transform: scale(1.02);
+}
+
+.midSection .tecnologiesInfo .tools:hover {
+    transform: scale(1.02);
+}
+
+.midSection .tecnologiesInfo .others:hover {
+    transform: scale(1.02);
+}
+
+.midSection .tecnologiesInfo .language .innerService h4,
+.midSection .tecnologiesInfo .userInterface .innerService h4,
+.midSection .tecnologiesInfo .tools .innerService h4,
+.midSection .tecnologiesInfo .others .innerService h4 {
+    font-size: 17px;
+    font-weight: 610;
+    margin-top: 10px;
+}
+
+.midSection .tecnologiesInfo .language .innerService .learned .bunch .text,
+.midSection .tecnologiesInfo .userInterface .innerService .learned .bunch .text,
+.midSection .tecnologiesInfo .tools .innerService .learned .bunch .text,
+.midSection .tecnologiesInfo .others .innerService .learned .bunch .text {
+    font-weight: 450;
+    padding: 3px;
+    font-size: 15px;
+}
+
+.midSection .tecnologiesInfo .language .innerService .learned .bunch span,
+.midSection .tecnologiesInfo .userInterface .innerService .learned .bunch span,
+.midSection .tecnologiesInfo .tools .innerService .learned .bunch span,
+.midSection .tecnologiesInfo .others .innerService .learned .bunch span {
+    margin-bottom: -5px;
+
+}

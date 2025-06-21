@@ -1,0 +1,174 @@
+@media(max-width: 767px) {
+    .midSection {
+        margin: 0 30px;
+        padding: 0;
+    }
+
+    .midSection .midHeading h1 {
+        padding-bottom: 40px;
+        padding-top: 70px;
+        font-size: 25px;
+        font-weight: 700;
+        letter-spacing: 0;
+        text-align: center;
+    }
+
+    .midSection .tecnologiesInfo {
+        flex-direction: column;
+        align-items: center;
+        /* width: 700px; */
+        /* flex-shrink: 1; */
+        padding: 17px 0;
+        margin-bottom: 0;
+    }
+
+    .midSection .tecnologiesInfo .userInterface .innerService .innerServiceInfo .tecnologiesHeading,
+    .midSection .tecnologiesInfo .language .innerService .innerServiceInfo .tecnologiesHeading,
+    .midSection .tecnologiesInfo .tools .innerService .innerServiceInfo .tecnologiesHeading,
+    .midSection .tecnologiesInfo .others .innerService .innerServiceInfo .tecnologiesHeading {
+        padding-bottom: 17px;
+    }
+
+    .midSection .tecnologiesInfo .language .innerService h4,
+    .midSection .tecnologiesInfo .userInterface .innerService h4,
+    .midSection .tecnologiesInfo .tools .innerService h4,
+    .midSection .tecnologiesInfo .others .innerService h4 {
+        padding: 0;
+        margin: 10px 0;
+    }
+
+    .midSection .tecnologiesInfo .language,
+    .midSection .tecnologiesInfo .userInterface,
+    .midSection .tecnologiesInfo .tools,
+    .midSection .tecnologiesInfo .others {
+        width: 100%;
+        height: 100%;
+    }
+
+    .midSection .tecnologiesInfo .language .innerService,
+    .midSection .tecnologiesInfo .userInterface .innerService,
+    .midSection .tecnologiesInfo .tools .innerService,
+    .midSection .tecnologiesInfo .others .innerService {
+        width: 97.50%;
+        height: 96%;
+        padding-bottom: 10px;
+    }
+
+    .midSection .tecnologiesInfo .language,
+    .midSection .tecnologiesInfo .userInterface,
+    .midSection .tecnologiesInfo .tools,
+    .midSection .tecnologiesInfo .others {
+        width: 600px;
+    }
+
+
+    .midSection .tecnologiesInfo .language .innerService,
+    .midSection .tecnologiesInfo .userInterface .innerService,
+    .midSection .tecnologiesInfo .tools .innerService,
+    .midSection .tecnologiesInfo .others .innerService {
+        width: 590px;
+        padding-top: 0;
+    }
+}
+
+@media(max-width: 650px) {
+    .midSection .tecnologiesInfo {
+        padding: 16px 15px;
+    }
+
+    .midSection .tecnologiesInfo .language,
+    .midSection .tecnologiesInfo .userInterface,
+    .midSection .tecnologiesInfo .tools,
+    .midSection .tecnologiesInfo .others {
+        width: 100%;
+    }
+
+    .midSection .tecnologiesInfo .language .innerService,
+    .midSection .tecnologiesInfo .userInterface .innerService,
+    .midSection .tecnologiesInfo .tools .innerService,
+    .midSection .tecnologiesInfo .others .innerService {
+        width: 97.50%;
+        padding-top: 0;
+    }
+
+}
+
+@media(max-width: 650px) {
+
+
+    .midSection .midHeading h1 {
+        margin: 40px 0;
+        font-weight: 700;
+        letter-spacing: 0.10px;
+    }
+
+    .midSection .tecnologiesInfo .language .innerService h4,
+    .midSection .tecnologiesInfo .userInterface .innerService h4,
+    .midSection .tecnologiesInfo .tools .innerService h4,
+    .midSection .tecnologiesInfo .others .innerService h4 {
+        padding: 0;
+        margin: 10px 0;
+    }
+
+    .midSection .tecnologiesInfo .language,
+    .midSection .tecnologiesInfo .userInterface,
+    .midSection .tecnologiesInfo .tools,
+    .midSection .tecnologiesInfo .others {
+        width: 100%;
+        height: 100%;
+    }
+
+    .midSection .tecnologiesInfo .language .innerService,
+    .midSection .tecnologiesInfo .userInterface .innerService,
+    .midSection .tecnologiesInfo .tools .innerService,
+    .midSection .tecnologiesInfo .others .innerService {
+        width: 97.50%;
+        height: 96%;
+        padding-bottom: 10px;
+    }
+
+    .midSection .tecnologiesInfo .userInterface .innerService .innerServiceInfo .tecnologiesHeading,
+    .midSection .tecnologiesInfo .language .innerService .innerServiceInfo .tecnologiesHeading,
+    .midSection .tecnologiesInfo .tools .innerService .innerServiceInfo .tecnologiesHeading,
+    .midSection .tecnologiesInfo .others .innerService .innerServiceInfo .tecnologiesHeading {
+        padding-bottom: 0;
+    }
+}
+
+@media(max-width: 470px) {
+
+    .midSection .tecnologiesInfo .language,
+    .midSection .tecnologiesInfo .userInterface,
+    .midSection .tecnologiesInfo .tools,
+    .midSection .tecnologiesInfo .others {
+        width: 100%;
+        height: 100%;
+    }
+
+    .midSection .tecnologiesInfo .language .innerService,
+    .midSection .tecnologiesInfo .userInterface .innerService,
+    .midSection .tecnologiesInfo .tools .innerService,
+    .midSection .tecnologiesInfo .others .innerService {
+        width: 96%;
+        height: 96%;
+    }
+}
+
+@media(max-width: 280px) {
+
+    .midSection .tecnologiesInfo .language,
+    .midSection .tecnologiesInfo .userInterface,
+    .midSection .tecnologiesInfo .tools,
+    .midSection .tecnologiesInfo .others {
+        width: 100%;
+        height: 100%;
+    }
+
+    .midSection .tecnologiesInfo .language .innerService,
+    .midSection .tecnologiesInfo .userInterface .innerService,
+    .midSection .tecnologiesInfo .tools .innerService,
+    .midSection .tecnologiesInfo .others .innerService {
+        width: 94%;
+        height: 96%;
+    }
+}

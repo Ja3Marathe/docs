@@ -1,0 +1,84 @@
+.worked {
+    margin: 50px 0;
+    background-color: #cffafe;
+    height: 1100px;
+    margin: 0;
+    padding: 0;
+}
+
+.worked h1 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 0.60px;
+    padding-bottom: 30px;
+
+}
+
+.worked .workedWrap {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.worked .workedWrap .Paragraph {
+    padding-bottom: 40px;
+}
+
+.worked .workedWrap .Paragraph .heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+}
+
+.worked .workedWrap .Paragraph .heading span {
+    font-weight: 450;
+}
+
+.worked .workedWrap .Paragraph .heading .blueColor .blueColorr {
+    color: #155e75;
+    align-items: center;
+}
+
+.worked .workedWrap .Paragraph .heading .child span {
+    color: #4a5c67;
+    font-size: 14px;
+}
+
+.worked .workedWrap .Paragraph p {
+    color: #4a5c67;
+    letter-spacing: 0.50px;
+    line-height: 22px;
+    font-size: 14px;
+
+    text-align: justify;
+    align-items: center;
+    width: 570px;
+}
+
+.pargraphWrap {
+    display: flex;
+    align-items: baseline;
+    gap: 20px;
+    padding-left: 20px;
+}
+
+.worked .workedWrap .Paragraph .pargraphWrap .material-symbols-outlined {
+    font-size: 11px;
+    margin-top: 8px;
+    color: #4a8d8a;
+}
+
+.worked {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.blueColorr {
+    cursor: pointer;
+}
